@@ -1,12 +1,6 @@
-#include <iostream>
-
 #include <stdio.h>
-#include <vector>
-#include <algorithm>
 
-using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
+<<<<<<< HEAD
 int main(int argc, char** argv) {
     freopen("input.txt", "rt", stdin);
 	int a[100], n, idx, i, j, tmp;
@@ -31,4 +25,9 @@ int main(int argc, char** argv) {
     }
 
     return 0;
+=======
+int main(){
+	freopen("input.txt", "rt", stdin);
+	return 0;
+>>>>>>> 8488f28... update main.cpp
 }
