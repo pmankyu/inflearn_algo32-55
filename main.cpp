@@ -1,13 +1,12 @@
-#include <iostream>
-
 #include <stdio.h>
-#include <vector>
-#include <algorithm>
 
-using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char** argv) {
-    printf("Hello world!!\n");
-    return 0;
+int main(){
+	int n, m, sum = 0, i;
+	//freopen("input.txt", "rt", stdin);
+	scanf("%d %d", &n, &m);
+	for(i=1; i<=n; i++){
+		if(i%m == 0) sum += i;
+	}
+	printf("%d\n", sum);
+	return 0;
 }
