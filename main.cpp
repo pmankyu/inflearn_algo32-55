@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 int main(int argc, char** argv) {
     freopen("input.txt", "rt", stdin);
 	int a[100], n, idx, i, j, tmp;
@@ -30,4 +31,9 @@ int main(){
 	freopen("input.txt", "rt", stdin);
 	return 0;
 >>>>>>> 8488f28... update main.cpp
+=======
+int main(){
+	freopen("input.txt", "rt", stdin);
+	return 0;
+>>>>>>> 8488f2868bebcb0b77276633a459f89699f6bee6
 }
